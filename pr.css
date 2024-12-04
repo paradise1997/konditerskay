@@ -1,0 +1,532 @@
+body{
+    font-family: CALIBRI;
+}
+.bigbox{
+    width: 100%;
+    height: 3800px;
+    border: 0px solid red;
+    display: grid;
+    grid-template-columns: 3fr; 
+    grid-template-rows: 0.7fr 0.4fr  2fr 0.4fr  1.7fr 0.4fr  1.7fr 0.4fr  1.7fr 2fr  2.5fr 0.8fr;
+    grid-template-areas: 
+    "shapka1"
+    "meny1"
+    "foto1"
+    "onas1"
+    "foto2"
+    "katalog1"
+    "foto3"
+    "koment1"
+    "foto4"
+    "dostavka1"
+    "form1"
+    "podval1"
+    ; 
+}  
+@media(max-width:600px){
+    .mbox33{
+     width: 20%;
+     height: 175px;
+    }
+    .box3{
+        width: 600px;
+        height: 200px;
+    }
+    .mbox55{
+        width: 20%;
+        height: 175px;
+       }
+    .box5{
+        width: 600px;
+        height: 200px;
+        }
+        .box7{
+        width: 600px;
+        height: 200px;
+        }  
+     .mbox7{
+        width: 600px;
+        height: 200px;
+        }  
+        .sbox11{
+            width: 600px;
+            height: 200px;
+            }  
+         .box11{
+            width: 600px;
+            height: 200px;
+            } 
+            .mbox111{
+                width: 600px;
+                height: 200px;
+                } 
+}
+.box1{
+    border: 0px solid ;
+  grid-area: shapka1;
+  display: flex;
+  background-color: black;
+}
+.mbox1{
+    width:33%;
+    height: 100%;
+    border: 0px solid red;
+}
+.pink{
+    color: palevioletred;
+}
+.text1{
+    font-size: 2vw;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+.t1{
+    font-size: 1vw;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.text11{ 
+    font-size: 3vw; 
+    color: white;
+    margin-left: 27%;
+}
+.text111{
+    font-size: 2vw;
+    color: white;
+    margin-left: 50%;
+}
+.box2{
+    border: 0px solid ;
+    grid-area: meny1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.kn1{
+    text-decoration: dashed;
+    font-size: 2vw;
+    color: black;
+}
+.kn1:hover{
+    color: purple;
+    font-size: 2.2vw;
+    transition: 1s;
+}
+.box3{
+    border: 0px solid ;
+    grid-area: foto1;
+    background-image: url(фон1.jpg); 
+    display: flex;
+    height: 500px;
+}
+.foto1{
+    width: 60%;
+    height: 70%;
+    margin-left: 50%;
+    margin-top: 30%;
+}
+.foto2{
+    width: 100%;
+    height: 100%;
+    margin-left: -20%;
+}
+.mbox3{
+    width: 60%;
+    height: 100%;
+    border: 0px solid red;
+}
+.mbox33{
+    width: 40%;
+    height: 100%;
+    border: 0px solid red;
+    overflow: hidden;
+}
+
+.knop2{ 
+    margin-left: 30%;
+    border-radius: 40px;
+    width: 25%;
+    background-color: brown;
+    height: 10%;
+    font-size: 1.5vw;
+    font-family: initial;
+    transition: all 1s;
+}
+.knop2:hover{ 
+  transform: scale(1.2) translateY(20px);
+
+}
+hr{
+    height: 200%;
+    width: 2px;
+   background-color: black;
+   position: relative;left: 65%;top: -69%;
+}
+.text3{
+    font-size: 3vw;
+    color: black;
+font-family: Georgia;
+margin-left: 20%;
+}
+.t3{
+    color: purple;
+}
+.t33{
+    font-size: 1vw;
+}
+.box4{
+    border: 0px solid ;
+    grid-area: onas1;
+    text-align: center;
+} 
+.text4{
+    font-size: 3vw;
+   color: darkred;
+}
+.box5{ 
+    border: 0px solid ;
+    grid-area: foto2;
+    background-image: url(фон2.png); 
+    display: flex;
+}
+.mbox5{  
+    width: 40%;
+    height: 100%;
+    border: 0px solid red;
+    overflow: hidden;
+}
+.text5{
+    font-size: 1.5vw;
+      font-family:MS Sans Serif ;
+    }
+.mbox55{
+    width: 60%;
+    height: 350px;
+    border: 0px solid red;
+    text-align: center;
+}
+.text55{
+    font-size: 2.5vw;
+    font-family:Monotype Corsiva;
+    color: darkred;
+    margin-top: -2%;
+}
+.t5{
+    font-size: 1vw;
+    font-family: Franklin Gothic;
+    color: black;
+}
+.sbox5{
+    width: 100%;
+    height: 30%;
+    border: 0px solid;
+    display: flex;
+    justify-content: space-around;
+}
+.box6{
+    border: 0px solid ;
+    grid-area: katalog1;
+    text-align: center;
+}
+
+.box7{
+    border: 0px solid ;
+    grid-area: foto3;
+    background-image: url(фон1.jpg);
+    display: flex;
+}
+.mbox7{
+    width: 33%;
+    height: 100%;
+    border: 0px solid red;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.text6{
+    font-size: 1.8vw;
+    color: purple;
+    text-decoration: dashed;
+    letter-spacing: 2px;
+}
+.text7{
+    font-size: 1.8vw;
+    color: black;
+    letter-spacing: 2px;
+    font-family: Sylfaen; 
+}
+.t7{
+    color: rgb(255, 11, 255);
+    font-size: 2.5vw;
+    letter-spacing: 4px;
+}
+.foto3{
+    width: 100%;
+    height: 100%;
+    margin-left: 15%;
+}
+.box8{
+    border: 0px solid ;
+    grid-area: koment1;
+    text-align: center;
+}
+.box9{
+    border: 0px solid ;
+    grid-area: foto4;
+    display: flex;
+    background-image: url(Group\ 4.png);
+}
+.mbox9{
+    width: 50%;
+    height: 100%;
+    border: 0px solid red;
+} 
+.sbox9{
+    width: 100%;
+    height: 50%;
+    border: 0px solid red;
+    text-align: center;
+}
+.sbox99{
+    width: 100%; 
+    height: 50%;
+    border: 0px solid red;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+} 
+.text9{
+    font-size: 2.5vw;
+    color: darkred;
+    opacity: 0;
+}
+.t99{
+    font-size: 1.5vw;
+}
+.foto9{
+    width: 90%;
+    height: 90%;
+    position: relative;top: 15%;
+}
+.obox9{
+    width: 30%;
+    height: 100%;
+    border: 0px solid; 
+    margin-top: -4%;
+}
+.t9{
+    color: purple;
+}
+.box10{
+    border: 0px solid ;
+    grid-area: dostavka1;
+    background-image: url(Group\ 11.png);
+    margin-top: 2%;
+}
+.mbox10{
+    width: 100%;
+    height: 20%;
+    border: 0px solid red;
+    text-align: center;
+}
+.sbox10{
+    width: 50%;
+    height: 100%;
+    border: 0px solid red;
+}
+.sbox100{
+    width: 50%;
+    height: 100%;
+    border: 0px solid red;
+} 
+.mbox100{
+    width: 100%;
+    height: 80%; 
+    border: 0px solid red;
+    display: flex;
+
+}
+.foto10{
+    width: 30px;
+    height: 30px;
+    margin-top: -2%;
+}
+.text100{
+    font-size: 1.5vw;
+    color: purple;
+    margin-left: 60%; 
+} 
+.text1000{
+    font-size: 1.5vw;
+    color: purple;
+    margin-left: 15%;
+} 
+.text10{
+    font-size: 2vw; 
+    color: black;
+}
+.t10{
+    color: black;
+}
+.box11{
+    border: 0px solid ;
+    grid-area: form1;
+    background-image: url(Group\ 4.png);
+    margin-top: 3%;
+}
+.mbox11{
+    width: 100%;
+    height: 20%;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center;
+}
+.text1111{
+    font-size: 1.5vw;
+    color: purple;
+} 
+.text11111{
+    font-size: 0.5vw;
+    color: purple;
+} 
+.sbox11{
+    width: 50%;
+    height: 100%;
+    border: 0px solid red;
+}
+.obox11{
+    width: 50%;
+    height: 90%;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-color: rgb(194, 183, 183);
+    border-radius: 20px;
+} 
+.input1{
+    width: 70%;
+    height: 30px;
+    border: 2px solid purple;
+    background-color: white;
+    color: black; 
+border-radius: 20px;
+}
+.inpute2{
+    width: 70%;
+    height: 30px;
+    border: 2px solid purple;
+    background-color: darkred;
+    color: white; 
+border-radius: 20px;
+text-align: center;
+} 
+.inpute1{
+    width: 70%;
+    height: 30px;
+    border: 2px solid purple;
+    background-color: white;
+    color: purple; 
+border-radius: 20px;
+text-align: center;
+}
+.inpute2:hover{
+    width: 70%;
+    height: 40px;
+}
+@keyframes said{
+    to{
+        position: relative;
+        top:200px;
+    }
+    from{
+        position: relative;
+        top: -100px;
+        z-index: 0;
+    }
+}
+.a11{
+    width: 15%;
+    height: 100%;
+    border: 0px solid red;
+    z-index: 0;
+}
+
+.a111{
+    width: 15%;
+    height: 80%;
+    border: 0px solid red;
+    z-index: 10; 
+}
+
+.foto11{
+    width: 70px;
+    height: 70px;
+    animation-name: said;
+    animation-duration: 4s;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+    z-index: 1;
+    position: relative;right: 20%;
+}
+.foto111{
+    width: 150px;
+    height: 150px;
+    z-index: 2;
+ position: relative;bottom: 20%;right: 30%;
+} 
+.obox111{
+    
+  width: 100%;
+  height: 50%;
+  border: 0px solid red; 
+  display: flex;
+  justify-content: space-around; 
+  z-index: 1;
+  overflow: hidden;
+  
+}
+.obox1111{ 
+    width: 100%;
+    height: 80%;
+    border: 0px solid red; 
+    display: flex;
+    justify-content: space-around;   
+    z-index: 2;
+  }
+.sbox111{ 
+    width: 50%;
+    height: 100%;
+    border: 0px solid red;
+    display: flex;
+    justify-content: center;
+}
+.mbox111{
+    width: 100%;
+    height: 80%;
+    border: 0px solid red;
+    display: flex;
+}
+.box12{
+    border: 2px solid ;
+    grid-area: podval1;
+    background-color: black;
+    text-align: center;
+}
+.text12{
+    font-size: 2vw;
+    color: white;
+}
+.t12{
+    font-size: 1vw;
+    color: white;
+}
+.logo1{
+    width: 120px;
+    height: 120px;
+position: relative;top: 5%;
+}
+.logo1:hover ~.text9{
+    opacity: 1;
+}
